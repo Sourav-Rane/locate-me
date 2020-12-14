@@ -32,11 +32,11 @@ function App() {
     <div className="app">
       <button onClick={locateMe}>Auto Fill address</button>
       <form>
-        ZIP:<input value={zip}></input>
+        ZIP:<input defaultValue={zip}></input>
         <br />
-        Country:<input value={country}></input>
+        Country:<input defaultValue={country}></input>
         <br />
-        State:<input value={state}></input>
+        State:<input defaultValue={state}></input>
         <br />
       </form>
     </div>
